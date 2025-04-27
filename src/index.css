@@ -1,0 +1,38 @@
+:root {
+    --color-1: #cb997e;
+    --color-2: #ddbea9;
+    --color-3: #ffe8d6;
+    --color-4: #b7b7a4;
+    --bg-1: #a5a58d;
+    --bg-2: #6b705c;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    padding: 2rem 0;
+    background-color: var(--bg-1);
+    color: var(--color-3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

@@ -1,0 +1,52 @@
+.options-list {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: calc(175px * 2 + 1rem);
+    margin: 1.5rem auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-align: center;
+    width: 165px;
+    font-size: 15px;
+    margin: 5px;
+    transition-duration: 0.3s, 0.3s, 0.3s, 0.1s;
+    transition-property: background-color, border, color, box-shadow;
+    cursor: pointer;
+
+    &:active {
+        box-shadow: 0px 0px 4px 4px #ffffff;
+    }
+}
+
+.btn-option {
+    composes: btn;
+
+    background-color: var(--color-2);
+    color: #ffffff;
+}
+
+.btn-option:hover {
+    background-color: transparent;
+    border-color: var(--color-2);
+    color: var(--color-2);
+}
+
+.btn-reset {
+    composes: btn;
+    background-color: var(--color-3);
+    color: #252525;
+}
+
+.btn-reset:hover {
+    background-color: transparent;
+    border-color: var(--color-3);
+    color: var(--color-3);
+}
